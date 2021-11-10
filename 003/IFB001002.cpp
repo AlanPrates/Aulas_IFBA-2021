@@ -1,5 +1,5 @@
 // Fig. 2.9
-// Programa para calculo de média da turma c/repetição controlada por sentinela.
+// Programa para calculo da média da turma c/repetição controlada por sentinela.
 #include <iostream>
 
 using std::cout;
