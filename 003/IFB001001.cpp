@@ -1,5 +1,5 @@
 // Fig. 2.7
-// Programa de média da turma com repetição controlada por contador.
+// Programa da média da turma com repetição controlada por contador.
 #include <iostream>
 
 using std::cout;
