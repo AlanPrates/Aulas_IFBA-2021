@@ -1,3 +1,4 @@
+// Programa de média da turma com repetição controlada por contador
 #include <iostream>
 
 using std::cout;
