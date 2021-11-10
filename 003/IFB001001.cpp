@@ -1,5 +1,5 @@
 // Fig. 2.7
-// Programa de média da turma com repetição controlada por contador
+// Programa de mÃ©dia da turma com repetiÃ§Ã£o controlada por contador.
 #include <iostream>
 
 using std::cout;
@@ -9,27 +9,27 @@ using std::endl;
 int main()
 {
 	int total,         //soma das notas
-		gradeCounter,  //número de notas digitadas
+		gradeCounter,  //nÃºmero de notas digitadas
 		grade,		   //uma nota
-		average;	   //média das notas
+		average;	   //mÃ©dia das notas
 
-	// fase de inicialização
+	// fase de inicializaÃ§Ã£o
 	total = 0;
 	gradeCounter = 1;
 
 	// fase de processamento
 	while (gradeCounter <= 10 ) {		//repate 10 vezes
-		cout << "Forneça a nota; ";		//solicite entrada de dados
-		cin >> grade;					//lê nota digitada
+		cout << "ForneÃ§a a nota; ";		//solicite entrada de dados
+		cin >> grade;					//lÃª nota digitada
 		total = total + grade;			//soma nota digitada
 		gradeCounter = gradeCounter + 1;//incrementa contador
 
 	}
 
-	// fase de término					
-	average = total / 10;               //divisão inteira
+	// fase de tÃ©rmino					
+	average = total / 10;               //divisÃ£o inteira
 	setlocale(LC_ALL, "Portuguese");
-	cout << "A média da turma é " << average << endl;
+	cout << "A mÃ©dia da turma Ã© " << average << endl;
 
 	return 0;							// indica que programa terminou normalmente
 }
