@@ -13,37 +13,37 @@ using std::setiosflags;
 int main()
 
 {
-	int total,			//soma das notas
-	gradeCounter,		//números de notas digitadas
-	grade;				//uma nota
-	double average;		//número com ponto decimal para a média
+	int total,		//soma das notas
+	gradeCounter,		//nÃºmeros de notas digitadas
+	grade;			//uma nota
+	double average;		//nÃºmero com ponto decimal para a mÃ©dia
 
-	// fase de inicialização
+	// fase de inicializaÃ§Ã£o
 	total = 0;
 	gradeCounter = 0;
 
 	// fase de processamento
-	cout << "Forneça nota ou -1 para finalizar: ";
+	cout << "ForneÃ§a nota ou -1 para finalizar: ";
 	cin >> grade;
 
 	while (grade != -1) {
 		total = total + grade;
 		gradeCounter = gradeCounter + 1;
-		cout << "Forneça nota ou -1 para finalizar: ";
+		cout << "ForneÃ§a nota ou -1 para finalizar: ";
 		cin >> grade;
 
 	}
 
-	// fase de término
+	// fase de tÃ©rmino
 	if (gradeCounter != 0) {
 		average = static_cast<double> (total) / gradeCounter;
 		setlocale(LC_ALL, "Portuguese");
-		cout << "A média da turma é " << setprecision(2)
+		cout << "A mÃ©dia da turma Ã© " << setprecision(2)
 			<< setiosflags(ios::fixed | ios::showpoint)
 			<< average << endl;
 	}
 	else
 		cout << "Nenhuma nota foi fornecida" << endl;
 
-	return 0; // indica que o programa terminou com sucesso
+	return 0; // indica que o programa terminou com sucesso.
 }
