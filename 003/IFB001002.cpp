@@ -45,5 +45,5 @@ int main()
 	else
 		cout << "Nenhuma nota foi fornecida" << endl;
 
-	return 0; // indica que o programa terminou com sucesso
+	return 0; // indica que o programa terminou com sucesso.
 }
