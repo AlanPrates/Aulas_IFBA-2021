@@ -24,8 +24,8 @@ int main()
 
 	}
 
-	// fase de término					//divisão inteira
-	average = total / 10;
+	// fase de término					
+	average = total / 10;               //divisão inteira
 	setlocale(LC_ALL, "Portuguese");
 	cout << "A média da turma é " << average << endl;
 
