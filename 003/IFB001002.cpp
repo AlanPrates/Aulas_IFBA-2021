@@ -44,6 +44,7 @@ int main()
 			<< setiosflags(ios::fixed | ios::showpoint)
 			<< average << endl;
 	}
+	
 	else
 		cout << "Nenhuma nota foi fornecida" << endl;
 
